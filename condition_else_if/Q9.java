@@ -1,6 +1,8 @@
 public class Q9 {
     public static void main(String[] args) {
-           int a = 100 ;
+        //WAP to input angles of a triangle and check whether triangle is valid or not.
+
+        int a = 100 ;
         int b = 78 ;
         int c = 78 ;
         
