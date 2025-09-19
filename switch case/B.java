@@ -1,6 +1,6 @@
 public class B {
     public static void main(String[] args) {
-        // Day of the Week
+        // Q.B] Day of the Week
         // Take an integer (1–7) from the user and print the corresponding day name
 
         int a = 3;

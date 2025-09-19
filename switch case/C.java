@@ -1,27 +1,28 @@
 public class C {
     public static void main(String[] args) {
-        //Grade System
-// Take marks (0–100) and print grade using switch.
+     
+      //    Q.C] Grade System :-Take marks (0–100) and print grade using switch.
 
-// 90–100 → A
 
-// 80–89 → B
 
-// 70–79 → C
+        int a = 60;  // marks
 
-// 60–69 → D
-
-// Below 60 → Fail
-  int a = 23 ;
-
-  switch (a) {
-    case 90–100 :
-        System.out.println("90");
-        break;
-  
-    default:
-        break;
-  }
-
+        switch (a / 10) {
+            case 10: // when marks = 100
+            case 9: 
+                System.out.println("A");
+                break;
+            case 8: 
+                System.out.println("B");
+                break;
+            case 7: 
+                System.out.println("C");
+                break;
+            case 6: 
+                System.out.println("D");
+                break;
+            default:
+                System.out.println("Fail");
+        }
     }
 }
